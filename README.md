@@ -1,5 +1,4 @@
 # StoreFlow🛒
-# StoreFlow 🛒
 
 **A Full-Stack E-commerce Platform**
 
