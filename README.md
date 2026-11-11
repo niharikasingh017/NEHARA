@@ -1,22 +1,23 @@
-# StoreFlow🛒
+# NÉHARA ✦
+## A Full-Stack Luxury Lifestyle E-commerce Platform
 
-**A Full-Stack E-commerce Platform**
+**Tagline: Elegance in Every Choice.**
 
-StoreFlow is a full-stack e-commerce web application designed to provide customers with a simple and secure online shopping experience. It allows users to browse products, manage shopping carts, place orders, and track their purchase history, while administrators manage products, inventory, and customer orders.
+NÉHARA is a full-stack e-commerce web application designed to provide customers with a seamless and secure online shopping experience. It offers a curated platform where customers can explore products, manage shopping carts, place orders, and track their purchase history, while administrators manage products, categories, inventory, and customer orders.
 
 ## 🎯 Problem Statement
 
-Small businesses and individual brands often struggle to establish an online presence where customers can conveniently browse products and place orders.
+Small businesses and emerging lifestyle brands often face challenges in establishing a strong online presence where customers can conveniently discover products and shop.
 
 Managing product catalogues, customer orders, inventory, and payments manually can become inefficient and difficult to maintain.
 
-StoreFlow aims to address these challenges by providing a centralized platform for online shopping and store management.
+NÉHARA aims to address these challenges by providing a centralized e-commerce platform that combines convenient shopping, efficient store management, and an elegant user experience.
 
 ## 💡 Proposed Solution
 
-StoreFlow provides an integrated e-commerce platform with two primary interfaces:
+NÉHARA provides an integrated e-commerce platform with two primary interfaces:
 
-- **Customer Interface:** Allows customers to discover products, manage their shopping carts, place orders, and track purchases.
+- **Customer Interface:** Allows customers to discover curated products, explore categories, manage shopping carts, place orders, and track their purchases.
 - **Admin Dashboard:** Allows administrators to manage products, categories, inventory, and customer orders.
 
 The platform will also support secure test-mode payment integration with server-side payment verification.
@@ -34,15 +35,16 @@ The platform will also support secure test-mode payment integration with server-
 - User registration and login.
 - JWT-based authentication.
 - Role-based access control.
-- Product catalogue and category filtering.
+- Product catalogue with category filtering.
 - Product search and detailed product pages.
 - Shopping cart with persistent storage.
 - Order placement and order history.
 - Admin dashboard.
 - Product and inventory management.
 - Test-mode payment gateway integration.
+- Elegant, responsive, and user-friendly interface.
 
-For detailed functionality, see [FEATURES.md](FEATURES.md).
+For detailed functionality, see `FEATURES.md`.
 
 ## 🛠️ Technology Stack
 
@@ -60,7 +62,7 @@ For detailed functionality, see [FEATURES.md](FEATURES.md).
 
 ## 🏗️ Project Architecture
 
-StoreFlow follows a client-server architecture in which the frontend communicates with the backend through REST APIs.
+NÉHARA follows a client-server architecture in which the frontend communicates with the backend through REST APIs.
 
 ```text
              CUSTOMER / ADMIN
@@ -69,7 +71,7 @@ StoreFlow follows a client-server architecture in which the frontend communicate
            React + Tailwind CSS
                     |
                     v
-               REST APIs
+                REST APIs
                     |
                     v
              FastAPI Backend
@@ -87,20 +89,24 @@ StoreFlow follows a client-server architecture in which the frontend communicate
 ### Architecture Components
 
 **Frontend**
+
 - React handles UI components and application navigation.
 - Tailwind CSS provides responsive styling.
 - API requests communicate with FastAPI.
 
 **Backend**
+
 - FastAPI handles application requests.
 - Authentication and authorization protect restricted endpoints.
 - Business logic manages products, carts, orders, and payments.
 
 **Database**
+
 - PostgreSQL stores users, products, categories, cart items, orders, and payment records.
 - SQLAlchemy manages database interactions.
 
 **Payment Gateway**
+
 - Razorpay handles test-mode payments.
 - The backend verifies payment signatures.
 - Confirmed orders are created only after successful payment verification.
@@ -111,13 +117,13 @@ The initial database will contain the following tables:
 
 | Table | Purpose |
 |---|---|
-| users | Stores customer and administrator information |
-| categories | Stores product categories |
-| products | Stores product information and inventory |
-| cart_items | Stores customer shopping cart items |
-| orders | Stores customer orders |
-| order_items | Stores individual products within orders |
-| payments | Stores payment transaction information |
+| `users` | Stores customer and administrator information |
+| `categories` | Stores product categories |
+| `products` | Stores product information and inventory |
+| `cart_items` | Stores customer shopping cart items |
+| `orders` | Stores customer orders |
+| `order_items` | Stores individual products within orders |
+| `payments` | Stores payment transaction information |
 
 ### Main Relationships
 
@@ -130,7 +136,7 @@ The initial database will contain the following tables:
 ## 📁 Project Structure
 
 ```text
-storeflow/
+nehara/
 │
 ├── frontend/
 │   ├── public/
@@ -215,7 +221,7 @@ Deployment will involve configuring environment variables, connecting the fronte
 **Day 1 – Planning**
 
 - [x] Project selected.
-- [x] Project name finalized.
+- [x] Project name finalized: NÉHARA.
 - [x] Problem statement defined.
 - [x] Proposed solution identified.
 - [x] User roles identified.
@@ -231,10 +237,12 @@ Deployment will involve configuring environment variables, connecting the fronte
 
 ## 🎯 Project Goal
 
-The goal of StoreFlow is to build a functional full-stack e-commerce platform within 15 days while gaining practical experience in frontend development, backend programming, database management, API development, authentication, and payment integration.
+The goal of NÉHARA is to build a functional full-stack luxury lifestyle e-commerce platform within 15 days while gaining practical experience in frontend development, backend programming, database management, API development, authentication, and payment integration.
 
-The final deliverable will be a working e-commerce application with customer shopping functionality, an administrative dashboard, persistent database storage, and test-mode payment integration.
+The final deliverable will be a working e-commerce application featuring a premium shopping experience, customer shopping functionality, an administrative dashboard, persistent database storage, and test-mode payment integration.
 
 ---
+
+**NÉHARA — Elegance in Every Choice.**
 
 *Built as part of ALTA Builder 30.*
