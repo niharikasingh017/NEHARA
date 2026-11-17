@@ -4,21 +4,21 @@
 **Elegance in Every Choice.**
 
 <p align="center">
-  A modern, minimalist e-commerce platform focused on bringing together
-  premium aesthetics, effortless shopping, and a seamless digital experience.
+  A modern luxury e-commerce platform combining timeless aesthetics,
+  effortless shopping, and modern web technology.
 </p>
 
 ---
 
 ## ✨ About NÉHARA
 
-NÉHARA is a luxury lifestyle e-commerce project designed to deliver an elegant, intuitive, and user-friendly online shopping experience.
+NÉHARA is a luxury lifestyle e-commerce platform designed to provide an elegant, intuitive, and convenient online shopping experience.
 
-Inspired by timeless Parisian aesthetics and modern minimalism, NÉHARA aims to combine sophisticated visual design with practical shopping functionality.
+Inspired by Parisian aesthetics and modern minimalism, NÉHARA brings together sophisticated visual design and practical shopping functionality.
 
-The platform is being developed as a full-stack application, featuring a customer shopping interface and an administrative management system.
+The project is being developed as a full-stack web application with a customer shopping interface and an administrative management system.
 
-**Our vision:** To create an online shopping experience where simplicity meets sophistication.
+**Our Vision:** To create a digital shopping experience where simplicity meets sophistication.
 
 ---
 
@@ -26,33 +26,35 @@ The platform is being developed as a full-stack application, featuring a custome
 
 Small and emerging lifestyle brands need an effective digital platform to showcase their products and connect with customers.
 
-Traditional shopping experiences can lack convenience, organized product discovery, and efficient order management.
+Traditional shopping experiences can lack convenient product discovery, organized catalogues, and efficient order management.
 
-NÉHARA aims to address these challenges through a centralized e-commerce platform that combines elegant design, convenient shopping, secure authentication, and efficient store management.
+NÉHARA aims to address these challenges through a centralized e-commerce platform featuring elegant design, secure authentication, convenient shopping, and efficient store management.
 
 ---
 
 ## 💎 Key Features
 
-### Customer Experience
-- Elegant and responsive homepage.
-- Premium product presentation.
-- Product catalogue and categories.
+### Customer Features
+- Premium and responsive homepage.
+- Elegant product catalogue.
+- Product categories and collections.
 - Individual product detail pages.
 - Product search and filtering.
-- Shopping cart and wishlist.
-- Secure user registration and login.
-- Online checkout and order management.
+- Shopping cart.
+- Wishlist.
+- User registration and login.
+- Checkout and order management.
 
-### Admin Experience
+### Administrator Features
 - Admin authentication.
 - Product management.
 - Category management.
 - Inventory management.
-- Customer order management.
-- Dashboard with store information.
+- Customer management.
+- Order management.
+- Administrative dashboard.
 
-*Features are being developed progressively. Not all listed functionality is currently implemented.*
+*Note: These are planned platform capabilities. Features will be marked as implemented as development progresses.*
 
 ---
 
@@ -61,46 +63,46 @@ NÉHARA aims to address these challenges through a centralized e-commerce platfo
 | Technology | Purpose |
 |---|---|
 | React | Frontend development |
-| Vite | Frontend development environment |
+| Vite | Development environment |
 | Tailwind CSS | Styling and responsive design |
 | Python | Backend development |
 | FastAPI | REST API development |
-| PostgreSQL | Relational database |
+| PostgreSQL | Database |
 | SQLAlchemy | Database ORM |
 | JWT | Authentication |
-| Razorpay | Planned test payment integration |
+| Razorpay | Planned payment integration |
 | Git & GitHub | Version control |
 
 ---
 
-## 🏗️ Project Architecture
+## 🏗️ System Architecture
 
-NÉHARA is planned around a client-server architecture.
+NÉHARA follows a client-server architecture.
 
 ```text
              CUSTOMER / ADMIN
                     |
                     v
-             React Frontend
+             REACT FRONTEND
                     |
                     v
                 REST APIs
                     |
                     v
-              FastAPI Backend
+              FASTAPI BACKEND
                     |
           +---------+---------+
           |         |         |
           v         v         v
-       Database  Auth     Payments
+       DATABASE   AUTH    PAYMENTS
           |
           v
-      PostgreSQL
+       POSTGRESQL
 ```
 
-The frontend will communicate with the backend through REST APIs.
+The frontend communicates with the backend through REST APIs.
 
-The backend will manage authentication, product information, shopping carts, orders, and payment verification.
+The backend will handle authentication, product information, shopping carts, orders, and payment verification.
 
 ---
 
@@ -109,20 +111,20 @@ The backend will manage authentication, product information, shopping carts, ord
 | Role | Responsibilities |
 |---|---|
 | Customer | Browse products, manage wishlist, add items to cart, and place orders |
-| Administrator | Manage products, inventory, categories, and customer orders |
-| Guest | Explore the store and browse public product information |
+| Administrator | Manage products, categories, inventory, and orders |
+| Guest | Browse publicly available products without an account |
 
 ---
 
 ## 🗄️ Planned Database Design
 
-The initial database is expected to include:
+The initial database is expected to contain the following tables:
 
 | Table | Purpose |
 |---|---|
 | users | Customer and administrator information |
 | categories | Product categories |
-| products | Product information and inventory |
+| products | Product details and inventory |
 | cart_items | Shopping cart records |
 | orders | Customer orders |
 | order_items | Products associated with orders |
@@ -163,42 +165,42 @@ NEHARA/
 │   └── .env.example
 │
 ├── docs/
-├── Features.md
+├── FEATURES.md
 ├── README.md
 └── .gitignore
 ```
 
-*This is the proposed structure; it will be updated as development progresses.*
+*This is the proposed structure and will be updated according to the actual implementation.*
 
 ---
 
 ## 🚀 Development Roadmap
 
-NÉHARA is being developed through the following milestones:
+The project follows 15 development milestones.
 
-| Milestone | Development Task |
-|---|---|
-| 01 | Project planning and feature definition |
-| 02 | Database schema and wireframes |
-| 03 | Backend setup and database connection |
-| 04 | User registration and password hashing |
-| 05 | Login and JWT authentication |
-| 06 | Product CRUD APIs |
-| 07 | Product categories, search, and pagination |
-| 08 | Frontend routing and authentication integration |
-| 09 | Product listing and detail pages |
-| 10 | Admin CRUD functionality |
-| 11 | Shopping cart and order backend |
-| 12 | Checkout and frontend integration |
-| 13 | Testing and bug fixing |
-| 14 | Deployment |
-| 15 | Documentation and project launch |
+| No. | Milestone | Description |
+|---|---|---|
+| 01 | Project Planning | Problem statement and feature list |
+| 02 | Database Design | Schema and wireframes |
+| 03 | Backend Setup | Server and database connection |
+| 04 | Signup API | Registration and password hashing |
+| 05 | Login API | JWT authentication |
+| 06 | Product CRUD | Create, read, update and delete products |
+| 07 | Search & Relations | Categories, search and pagination |
+| 08 | Frontend Integration | Routing and authentication screens |
+| 09 | Product Screens | Listing and detail pages |
+| 10 | Admin CRUD | Product management from the UI |
+| 11 | Heavy Feature Part 1 | Shopping cart and order backend |
+| 12 | Heavy Feature Part 2 | Checkout and payment integration |
+| 13 | Testing | API tests and bug fixes |
+| 14 | Deployment | Frontend, backend and database deployment |
+| 15 | Project Launch | README, demo video and LinkedIn post |
 
 ---
 
-## 📌 Current Development Status
+## 📌 Current Project Status
 
-**Project Status: In Development**
+**Status: In Development**
 
 | Component | Status |
 |---|---|
@@ -206,10 +208,11 @@ NÉHARA is being developed through the following milestones:
 | Problem statement | Completed |
 | Feature documentation | Completed |
 | Initial frontend | Developed locally |
-| Frontend enhancements | Planned |
-| Backend development | Pending |
+| Frontend enhancements | Pending |
+| Backend setup | Pending |
 | Database integration | Pending |
 | Authentication | Pending |
+| Product APIs | Pending |
 | Shopping cart and checkout | Pending |
 | Admin dashboard | Pending |
 | Testing | Pending |
@@ -228,37 +231,35 @@ NÉHARA is being developed through the following milestones:
 
 ---
 
-## 📖 Documentation
-
-For more information about the project's functionality and requirements, see:
-
-- [Features and Requirements](Features.md)
-- [Project Documentation](README.md)
-
----
-
 ## 🎨 Design Philosophy
 
-NÉHARA follows a minimal luxury design approach.
+NÉHARA follows a minimal luxury design philosophy.
 
-Our design direction focuses on:
+Our visual direction focuses on:
 
 - Timeless typography.
-- Elegant layouts.
+- Elegant and spacious layouts.
 - Refined neutral colour palettes.
-- Clean product presentation.
+- Sophisticated product presentation.
 - Smooth and subtle interactions.
 - Responsive design across devices.
 
-The goal is to create a digital experience that feels sophisticated without being overwhelming.
+We aim to create an experience that feels premium without being visually overwhelming.
 
 ---
 
-## 🎯 Project Goal
+## 🎯 Project Objective
 
-The objective of NÉHARA is to develop a complete full-stack luxury e-commerce platform while gaining practical experience in frontend development, backend engineering, database management, API integration, authentication, and deployment.
+The objective of NÉHARA is to develop a complete full-stack luxury e-commerce platform while gaining practical experience in frontend development, backend engineering, database management, API integration, authentication, testing, and deployment.
 
 The final application will combine a premium shopping interface with reliable backend functionality and efficient store management.
+
+---
+
+## 📖 Documentation
+
+- [Features and Requirements](FEATURES.md)
+- [Project Documentation](README.md)
 
 ---
 
