@@ -1,4 +1,3 @@
-
 # NÉHARA ✦
 ### A Luxury E-commerce Experience
 **Elegance in Every Choice.**
@@ -137,40 +136,18 @@ The initial database is expected to contain the following tables:
 ```text
 NEHARA/
 │
-├── frontend/
-│   ├── public/
-│   └── src/
-│       ├── assets/
-│       ├── components/
-│       ├── pages/
-│       ├── layouts/
-│       ├── services/
-│       ├── context/
-│       ├── hooks/
-│       ├── App.jsx
-│       └── main.jsx
-│
-├── backend/
-│   ├── app/
-│   │   ├── routes/
-│   │   ├── models/
-│   │   ├── schemas/
-│   │   ├── services/
-│   │   ├── database/
-│   │   ├── middleware/
-│   │   └── main.py
-│   │
-│   ├── tests/
-│   ├── requirements.txt
-│   └── .env.example
-│
-├── docs/
-├── FEATURES.md
 ├── README.md
-└── .gitignore
+├── FEATURES.md
+├── docs/
+│
+└── frontend/
+    ├── README.md
+    ├── package.json
+    ├── public/
+    └── src/
 ```
 
-*This is the proposed structure and will be updated according to the actual implementation.*
+*This is the proposed documentation and frontend structure. It will be updated as the backend is added.*
 
 ---
 
@@ -193,82 +170,4 @@ The project follows 15 development milestones.
 | 11 | Heavy Feature Part 1 | Shopping cart and order backend |
 | 12 | Heavy Feature Part 2 | Checkout and payment integration |
 | 13 | Testing | API tests and bug fixes |
-| 14 | Deployment | Frontend, backend and database deployment |
-| 15 | Project Launch | README, demo video and LinkedIn post |
-
----
-
-## 📌 Current Project Status
-
-**Status: In Development**
-
-| Component | Status |
-|---|---|
-| Project planning | Completed |
-| Problem statement | Completed |
-| Feature documentation | Completed |
-| Initial frontend | Developed locally |
-| Frontend enhancements | Pending |
-| Backend setup | Pending |
-| Database integration | Pending |
-| Authentication | Pending |
-| Product APIs | Pending |
-| Shopping cart and checkout | Pending |
-| Admin dashboard | Pending |
-| Testing | Pending |
-| Deployment | Pending |
-
----
-
-## 🔮 Future Enhancements
-
-- Personalized product recommendations.
-- Customer reviews and ratings.
-- Discount coupons and promotional offers.
-- Advanced inventory analytics.
-- Improved product discovery.
-- Enhanced shopping experience.
-
----
-
-## 🎨 Design Philosophy
-
-NÉHARA follows a minimal luxury design philosophy.
-
-Our visual direction focuses on:
-
-- Timeless typography.
-- Elegant and spacious layouts.
-- Refined neutral colour palettes.
-- Sophisticated product presentation.
-- Smooth and subtle interactions.
-- Responsive design across devices.
-
-We aim to create an experience that feels premium without being visually overwhelming.
-
----
-
-## 🎯 Project Objective
-
-The objective of NÉHARA is to develop a complete full-stack luxury e-commerce platform while gaining practical experience in frontend development, backend engineering, database management, API integration, authentication, testing, and deployment.
-
-The final application will combine a premium shopping interface with reliable backend functionality and efficient store management.
-
----
-
-## 📖 Documentation
-
-- [Features and Requirements](FEATURES.md)
-- [Project Documentation](README.md)
-
----
-
-<p align="center">
-
-  **NÉHARA**
-
-  *Elegance in Every Choice.*
-
-  Built with creativity, precision, and a passion for technology.
-
-</p>
+| 14 | Deployment | Frontend,
