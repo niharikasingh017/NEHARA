@@ -1,68 +1,51 @@
 🛠️ NÉHARA – Tech Stack
 
-Technologies Behind the Experience
+A Little Luxury, Every Day.
 
-NÉHARA is a modern e-commerce marketplace project developed using web technologies to create an elegant, interactive, and user-friendly shopping experience.
+NÉHARA is a modern multi-category e-commerce marketplace built using modern frontend technologies to deliver an elegant, interactive, and responsive shopping experience.
 
-⸻
+💻 Frontend Technologies
 
-1. Frontend Development
+Technology	Purpose
+React 19	Component-based UI development
+JavaScript	Application functionality
+Tailwind CSS 4	Styling and responsive layouts
+React Router DOM 7	Client-side navigation
+Framer Motion	UI animations and transitions
+Lucide React	Icons and visual elements
 
-The frontend is responsible for the website’s visual appearance, layout, and user interactions.
+⚙️ Development Tools
 
-* HTML5 – Structures the website content.
-* CSS3 – Handles styling, layouts, colors, and responsiveness.
-* JavaScript – Adds interactivity and dynamic functionality.
-* React.js – Component-based frontend development. (If used in the project.)
+Tool	Purpose
+Vite	Development server and build tool
+ESLint	Code quality and linting
+Git	Version control
+GitHub	Source code hosting
+Visual Studio Code / Antigravity	Development environment
 
-2. Development Tools
+🚀 Deployment
 
-Tools used during the development process:
-
-* Visual Studio Code – Code editor.
-* Git – Version control.
-* GitHub – Source code hosting and project management.
-* Antigravity – AI-assisted development environment. (If used.)
-
-3. Deployment & Hosting
-
-* Vercel – Website deployment and hosting.
-* GitHub – Repository management and source code collaboration.
+* Vercel – Website hosting and deployment.
 
 Live Website: https://nehara-store-nehara2.vercel.app
 
-4. Design & User Experience
+🎨 Design Approach
 
-The design approach focuses on:
+* Minimal and elegant interface.
+* Luxury-inspired branding.
+* Responsive layouts.
+* Smooth animations.
+* User-friendly navigation.
+* Consistent visual identity.
 
-* Minimal and elegant layouts.
-* Luxury-inspired visual identity.
-* Consistent typography and colors.
-* Responsive user interface.
-* Easy navigation and product discovery.
+🔮 Future Integrations
 
-5. Future Technology Integrations
-
-The following technologies may be considered as the project evolves:
-
-* Node.js – Backend development.
-* Express.js – Backend API development.
-* MongoDB – Database management.
-* Authentication – Secure user accounts.
-* Payment Gateway – Online payment processing.
+* Node.js and Express.js for backend development.
+* MongoDB for database management.
+* Authentication and user accounts.
+* Secure payment gateway.
+* Order management system.
 
 ⸻
 
-🎯 Development Approach
-
-NÉHARA follows a frontend-focused development approach, with an emphasis on clean design, usability, and scalable architecture.
-
-The technology stack will evolve as new features and functionalities are introduced.
-
-⸻
-
-<p align="center">
-  **NÉHARA**
-  <br/>
-  A Little Luxury, Every Day. ✨
-</p>
+NÉHARA – A Little Luxury, Every Day. ✨
